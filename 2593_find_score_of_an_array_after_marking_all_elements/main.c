@@ -59,6 +59,8 @@ long long find_score(int *nums, int num_size)
         table_it++;
     }
 
+    free(table_t);
+
     return acc;
 }
 
